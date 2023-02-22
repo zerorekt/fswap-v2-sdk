@@ -9,7 +9,7 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  BSC_TESTNET=97,
+  FANTOM= 250,
 }
 
 export enum TradeType {
@@ -25,7 +25,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0xd9B49C521b4e8ebd31b666b5CcE4E71814Ddfefc'
 
-export const INIT_CODE_HASH = '0xf5f48c1e09a6835015ae7c286eb3acdc9409d303da359e97162bba310b36a6e3'
+export const INIT_CODE_HASH = '0xf5f48c1e09a6835015ae7c286eb3acdc9409d303da359e250162bba310b36a6e3'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
